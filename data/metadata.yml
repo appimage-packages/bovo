@@ -1,4 +1,5 @@
 name: bovo
+binary: bovo
 packages: ''
   #app specifc
 frameworks:
