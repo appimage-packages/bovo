@@ -47,6 +47,7 @@ frameworks:
     - plasma-framework
     - kdecoration
     - breeze
+    - libkdegames
 type: git
 url: http://anongit.kde.org/bovo
 buildsystem: cmake
