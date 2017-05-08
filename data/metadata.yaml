@@ -3,52 +3,8 @@ binary: bovo
 packages:
   - zsync
   #app specifc
-build_kf5: true
-frameworks:
-    - extra-cmake-modules
-    - kcoreaddons
-    - ki18n
-    - kitemviews
-    - kconfig
-    - polkit-qt-1
-    - kauth
-    - kcodecs
-    - karchive
-    - kdoctools
-    - kguiaddons
-    - kwidgetsaddons
-    - kconfigwidgets
-    - kiconthemes
-    - kcompletion
-    - kwindowsystem
-    - kcrash
-    - kdbusaddons
-    - kservice
-    - sonnet
-    - ktextwidgets
-    - kglobalaccel
-    - attica
-    - kxmlgui
-    - solid
-    - kbookmarks
-    - kjobwidgets
-    - phonon
-    - phonon-gstreamer
-    - knotifications
-    - gpgmepp
-    - kwallet
-    - kio
-    - knewstuff
-    - breeze-icons
-    - kactivities
-    - kpackage
-    - kdeclarative
-    - kwayland
-    - plasma-framework
-    - kdecoration
-    - breeze
-    - kdnssd
-    - libkdegames
+build_kf5: false
+frameworks: false
 deps_on_kf5: false
 type: git
 url: http://anongit.kde.org/bovo
